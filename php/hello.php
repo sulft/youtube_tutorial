@@ -10,11 +10,10 @@
 
         <?php
             //création de variable 
-            $age = 10;
-            $nom = "Terry";
-
-            echo "je m'appelle $nom. <br>";
-            echo "je m'appelle $nom et j'ai $age ans.";
+            $tableau = array("Fruit", "Pomme", "Poire");
+            
+            echo "$tableau[1] ! <br>";
+            print_r($tableau);
         ?>
     </body>
 </html>
