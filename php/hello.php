@@ -8,10 +8,13 @@
 
     <body>
 
-        <?php 
-            $test= 5;
+        <?php
+            //création de variable 
+            $age = 10;
+            $nom = "Terry";
 
-            echo "Hello World !";
+            echo "je m'appelle $nom. <br>";
+            echo "je m'appelle $nom et j'ai $age ans.";
         ?>
     </body>
 </html>
