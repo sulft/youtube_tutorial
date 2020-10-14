@@ -23,7 +23,6 @@
             }; 
             
             $person = ma_fonction2 ($nom, $prenom);
-
             echo $person;
         ?>
     </body>
