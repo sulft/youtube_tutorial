@@ -13,6 +13,7 @@
             const NUMBER = 2;
             echo NUMBER . '<br>';
 
+
             $name = "Terry";
             $name = "John";
 
