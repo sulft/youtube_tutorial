@@ -9,13 +9,22 @@
     <body>
 
         <?php
-            function ma_fonction () {
-                echo "Hello World !";
+            $nom = "Vilver";
+            $prenom = "Terry";
+
+            function ma_fonction ($nom, $prenom) {
+                echo "Hello $prenom $nom are you all right ?<br><br>";
             }
 
-            ma_fonction();
-            ma_fonction();
-            ma_fonction();
+            ma_fonction($nom, $prenom);
+            
+            function ma_fonction2 ($nom, $prenom) {
+                return $nom;
+            }; 
+            
+            $person = ma_fonction2 ($nom, $prenom);
+
+            echo $person;
         ?>
     </body>
 </html>
