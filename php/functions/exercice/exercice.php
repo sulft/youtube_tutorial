@@ -31,6 +31,14 @@
                 echo $year . " is not a leap year.<br>";
             }
         ?>
+
+        <?php 
+            echo "<br><br>Exercice 3 : Calculator <br><br>";
+
+            $num1 = 15;
+            $num2 = 20;
+
+        ?>
     </body>
 </html>
 
