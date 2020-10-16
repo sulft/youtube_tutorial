@@ -7,6 +7,7 @@
     </head>
 
     <body>
+        <h1>Math function</h1>
         <?php
             echo ceil(9.4) . "<br>"; //arrondit le nombre/variable à l'inférieur
             echo floor(9.4) . "<br>"; //arrondir le nombre/variable au supérieur
