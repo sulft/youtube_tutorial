@@ -38,6 +38,29 @@
             $num1 = 15;
             $num2 = 20;
 
+            echo "Addition of $num1 and $num2 is " . addNumbers($num1 , $num2) . "<br>";
+            echo "Sustraction of $num1 and $num2 is " . substractNumbers($num1 , $num2) . "<br>";
+            echo "Multiplicity of $num1 and $num2 is " . multiplyNumbers($num1 , $num2) . "<br>";
+            echo "Division of $num1 and $num2 is " . divideNumbers($num1 , $num2) . "<br>";
+        ?>
+
+        <?php 
+            echo "<br><br>Exercice 4 : Swapping numbers <br><br>";
+
+            $num1 = 2;
+            $num2 = 8;
+
+            echo "Before swapping num1= $num1, num2= $num2.<br>";
+            swapNumbers($num1, $num2);
+            echo "After swapping num1= $num1, num2= $num2.<br>"
+        ?>
+
+        <?php 
+            echo "<br><br>Exercice 5 : Even or odd <br><br>";
+
+            $num1 = 3;
+
+            evenOrNot($num1);
         ?>
     </body>
 </html>
