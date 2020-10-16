@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>math function</title>
+        <title>date function</title>
     </head>
 
     <body>
